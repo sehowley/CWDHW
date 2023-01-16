@@ -6,3 +6,9 @@ format:
 ---
 
 This is a quarto document for Homework 1.
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+mtcars %>% summary
+```
+
