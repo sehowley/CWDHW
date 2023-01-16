@@ -15,3 +15,9 @@ mtcars %>% summary
 ```{r}
 mtcars %>% ggplot() + aes(x=cyl) + geom_bar() + theme_minimal()
 ```
+
+I created a temporary github account to pull this off in an example.  If you want to look over the commit history, this is basically what I had in mind.  I should point out that, unless I wanted to go back and forth across two computers, I have to do some of the editing on github itself rather than doing the whole thing in RStudio's git interface because it would mess with my credentials, PAT, etc.  Were I to have done it with an actual collaborator, using RStudio to pull with rebase would have been my go-to.  If I ever need more than the basics RStudio offers in the interface, I tend to use GitKraken but there are many useful git tools.
+
+You can find the github repository here:
+
+[The Repository](https://github.com/RW-Squared)
