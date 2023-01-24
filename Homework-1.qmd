@@ -5,7 +5,7 @@ format:
      self-contained: true
 ---
 
-This is a quarto document for Homework 1.
+This is a quarto document for Homework 1.  I just messed with a perfectly good submission.
 
 ```{r, warning=FALSE, message=FALSE}
 library(tidyverse)
